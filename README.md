@@ -1,73 +1,106 @@
-# Welcome to your Lovable project
 
-## Project info
+Shoplytics
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Shoplytics is an AI-powered digital assistant platform designed to help local businesses digitize their stores and improve customer interaction. Vendors can upload their products and customers can interact with an AI chatbot to ask about product availability, pricing, and recommendations in natural language.
 
-## How can I edit this code?
+Live Demo URL: https://shoplytics-ai.lovable.app
 
-There are several ways of editing your application.
+Live Application: 
 
-**Use Lovable**
+Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Many local businesses still operate without digital tools to showcase their inventory or communicate with customers online. Customers often need to visit stores or make phone calls just to check product availability.
 
-Changes made via Lovable will be committed automatically to this repo.
+Shoplytics solves this by providing a platform where vendors can upload product information and customers can interact with an AI-powered assistant to get instant answers.
 
-**Use your preferred IDE**
+Key Features
+Vendor Dashboard
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Vendor registration and login
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Add business details (name, category, location)
 
-Follow these steps:
+Add and manage products
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Update price and stock availability
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+View product insights and analytics
 
-# Step 3: Install the necessary dependencies.
-npm i
+Customer Experience
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Customer registration and login
 
-**Edit a file directly in GitHub**
+Browse available businesses
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Select a shop and explore products
 
-**Use GitHub Codespaces**
+Chat with the shop's AI assistant
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+AI Chat Assistant
 
-## What technologies are used for this project?
+Answers product availability questions
 
-This project is built with:
+Provides pricing information
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Suggests alternatives if a product is unavailable
 
-## How can I deploy this project?
+Recommends related products
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Responds in English, Hindi, or Marathi
 
-## Can I connect a custom domain to my Lovable project?
+Analytics
 
-Yes, you can!
+Vendors receive simple insights to understand customer demand:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Total products listed
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Total queries today
+
+Most asked products
+
+Frequently searched items
+
+Low stock alerts
+
+Tech Stack
+
+Frontend
+Lovable (UI development and deployment)
+
+Backend
+Supabase (authentication, database, backend services)
+
+AI
+Gemini API for natural language chatbot responses
+
+How It Works
+
+Vendors register their shop and upload product information.
+
+Product data is stored securely in the Supabase database.
+
+Customers browse businesses and select a shop.
+
+The Gemini-powered chatbot uses the shop's product database as context to answer queries.
+
+Market Opportunity
+
+$1.3T Indian Retail Market
+
+13M+ Local Retail Vendors
+
+Future Improvements
+
+Location-based shop discovery
+
+Advanced vendor analytics
+
+Integrated ordering system
+
+Payment gateway integration
+
+Repository
+
+GitHub Repository: [Add GitHub Repo Link Here]
+
+Hackathon Project
