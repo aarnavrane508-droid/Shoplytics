@@ -101,6 +101,6 @@ Payment gateway integration
 
 Repository
 
-GitHub Repository: [Add GitHub Repo Link Here]
+GitHub Repository: https://github.com/aarnavrane508-droid/Shoplytics
 
 Hackathon Project
